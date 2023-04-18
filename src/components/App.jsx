@@ -1,11 +1,14 @@
-import { Navbar } from './index'
+import { Navbar, About, Homepage } from './index'
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
     return(
         <div id="app_component">
-            <Navbar/>
-            <p>Welcome to my portfolio</p>
-            
+            <Navbar></Navbar>
+            <Routes>
+                <Route path='/' element={<Homepage/>}/>
+                <Route path='/about' element={<About/>}/>
+            </Routes>
         </div>
     )
 }
