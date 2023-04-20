@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 const App = () => {
     return(
-        <div id="app_component">
+        <div id="app-component">
             <Navbar></Navbar>
             <Routes>
                 <Route path='/' element={<Homepage/>}/>

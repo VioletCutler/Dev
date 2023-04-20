@@ -1,5 +1,10 @@
 /* Projects */
 
+#project-header {
+    text-align: center;
+    background-color:lightblue;
+}
+
 .tech-stack-logo {
     width:30%;
 }
@@ -10,28 +15,37 @@
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    border: 1px solid green;
 }
+
 
 .project-links {
     border: 1px solid red;
 }
 
 
+/* Student Group Generator Project */
+
+#student-group-generator-container {
+    border-bottom: 5px solid black;
+    margin-bottom: 3em;
+}
+
+
 /* Haunted Mansion Project*/
 #haunted-mansion-image {
-    width:50%;
-    max-width: 20rem;
+    width:100%;
+    /* max-width: 20rem; */
 }
 
 #haunted-mansion-layout-image {
-    width: 50%;
-    max-width: 20rem;
+    width: 100%;
 }
 
 #haunted-mansion-video {
-    width: 90%;
+    width: 100%;
 }
 
 #haunted-mansion-mermaid-chart{
