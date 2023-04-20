@@ -1,0 +1,28 @@
+@import '../App/App.css';
+
+#navbar-header{
+    background: var(--nav-header-background-color);
+    min-width: 7em;
+    display:flex;
+    justify-content: center;
+    }
+
+#navlinks {
+    min-width: 13em;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+nav {
+    background: var(--nav-header-background-color);
+    border: 1px solid darkgoldenrod;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+}

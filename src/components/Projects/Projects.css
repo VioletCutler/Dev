@@ -1,23 +1,37 @@
+@import '../App/App.css';
+
 /* Projects */
 
 #project-header {
     text-align: center;
     background-color:lightblue;
+    box-shadow: var(--card-box-shadow);
+}
+
+.tech-stack-logo-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
 }
 
 .tech-stack-logo {
     width:30%;
 }
 
+
+
 .project-description {
     padding: 1rem;
     border: 1px solid red;
+    background-color: var(--card-text-background-color);
 }
 
 .project-container {
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     border: 1px solid green;
+    padding: 1em;
+    box-shadow: var(--card-box-shadow);
 }
 
 
@@ -29,16 +43,21 @@
 /* Student Group Generator Project */
 
 #student-group-generator-container {
-    border-bottom: 5px solid black;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 
 /* Haunted Mansion Project*/
-#haunted-mansion-image {
-    width:100%;
-    /* max-width: 20rem; */
+#haunted-mansion-image-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
+
+ #haunted-mansion-image {
+    width:90%;
+    max-width:35rem;
+} 
 
 #haunted-mansion-layout-image {
     width: 100%;

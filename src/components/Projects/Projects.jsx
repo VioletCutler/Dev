@@ -42,11 +42,12 @@ const Projects = () => {
               </li>
             </ul>
           </div>
-          <img
+          <div id="haunted-mansion-image-container"><img
             id="haunted-mansion-image"
             src="https://user-images.githubusercontent.com/96203831/161592220-83f84c1c-9618-402b-8c6f-94c4e2d01088.jpg"
             alt="An old victorian mansion with a gloomy sky"
-          ></img>
+          ></img></div>
+          
           <h4>Overview</h4>
           <p className="paragraph-text project-description">
             Haunted Mansion was my capstone project during the Grace Hopper
@@ -57,14 +58,14 @@ const Projects = () => {
             was not sufficie and is deployed on Github pages
           </p>
         </div>
-
         <div>
+          
           <img
             id="haunted-mansion-layout-image"
             src="https://user-images.githubusercontent.com/96203831/161591984-e2110053-b8c2-4f67-b163-d3a77a76888b.png"
             alt="A map of the different room connections inside the haunted mansion"
           ></img>
-          <h4>Technical Challenges</h4>
+          <h4>Technical Challenges</h4><div className='tech-stack-logo-container'>
           <img
             className="tech-stack-logo"
             src="https://raw.githubusercontent.com/replit/kaboom/HEAD/kaboom.png"
@@ -79,7 +80,7 @@ const Projects = () => {
             className="tech-stack-logo"
             src="https://avatars.githubusercontent.com/u/57169982?s=200&v=4"
             alt="White mermaid tail on red background"
-          ></img>
+          ></img></div>
           <div className="project-description">
             <h5>Kaboom JS and Javascript</h5>
             <p className="paragraph-text">
@@ -110,9 +111,9 @@ const Projects = () => {
           height="315"
           src="https://www.youtube.com/embed/JvRc0QAXa0Q"
           title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowFullScreen
         ></iframe>
       </article>
     </section>
