@@ -1,0 +1,39 @@
+/* Projects */
+
+.tech-stack-logo {
+    width:30%;
+}
+
+.project-description {
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-links {
+    border: 1px solid red;
+}
+
+
+/* Haunted Mansion Project*/
+#haunted-mansion-image {
+    width:50%;
+    max-width: 20rem;
+}
+
+#haunted-mansion-layout-image {
+    width: 50%;
+    max-width: 20rem;
+}
+
+#haunted-mansion-video {
+    width: 90%;
+}
+
+#haunted-mansion-mermaid-chart{
+    width: 90%;
+}
