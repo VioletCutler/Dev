@@ -13,7 +13,16 @@
 
     --nav-background-color: linear-gradient(#ffebeb, #ffffff);
     --nav-header-background-color: linear-gradient(#ffebeb, #ffffff);
+
+    --tab-view-background-color: #bcbcbc;
 }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 html, body {
     height: 100%;
     max-width: 50rem;
