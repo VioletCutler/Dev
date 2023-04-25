@@ -1,0 +1,30 @@
+#homepage-header {
+  position: relative;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  top: 50%;
+}
+
+#homepage-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  /* scale: 80%; */
+  background-image: url(/src/components/Homepage/Dev-Page-Background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#homepage {
+  background: linear-gradient(#275122, rgb(1, 11, 1));
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+}
