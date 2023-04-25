@@ -1,26 +1,39 @@
-import './TabView.css'
-import { HauntedMansion, StudentGroupGenerator} from '../../index'
-import { useState } from 'react'
+import "./TabView.css";
+import { HauntedMansion, StudentGroupGenerator } from "../../index";
+import { useState } from "react";
 const TabView = () => {
-    const [activeTab, setActiveTab] = useState('studentGroupGenerator')
+  const [activeTab, setActiveTab] = useState("studentGroupGenerator");
 
-    function handleChangeTab(tabViewName){
-        setActiveTab(tabViewName)
-    }
+  function handleChangeTab(tabViewName) {
+    setActiveTab(tabViewName);
+  }
 
   return (
     <div className="tabs">
       <ul className="tab-selectors">
-        <li onClick={(()=>{handleChangeTab('studentGroupGenerator')})} className={activeTab === "studentGroupGenerator" ? "active" : ""}>Student Group Generator</li>
-        <li onClick={(()=>{handleChangeTab('hauntedMansion')})} className={activeTab === "hauntedMansion" ? "active" : ""}>Haunted Mansion</li>
+        <li
+          onClick={() => {
+            handleChangeTab("studentGroupGenerator");
+          }}
+          className={activeTab === "studentGroupGenerator" ? "active" : ""}
+        >
+        Group Generator
+        </li>
+        <li
+          onClick={() => {
+            handleChangeTab("hauntedMansion");
+          }}
+          className={activeTab === "hauntedMansion" ? "active" : ""}
+        >
+          Haunted Mansion
+        </li>
       </ul>
       <div className="outlet">
-        {activeTab === 'studentGroupGenerator' ?    <StudentGroupGenerator/> : <HauntedMansion/>}
-    
- 
-        
-    
-
+        {activeTab === "studentGroupGenerator" ? (
+          <StudentGroupGenerator />
+        ) : (
+          <HauntedMansion />
+        )}
       </div>
     </div>
   );
