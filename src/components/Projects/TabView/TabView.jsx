@@ -28,13 +28,13 @@ const TabView = () => {
           Haunted Mansion
         </li>
       </ul>
-      <div className="outlet">
+      <section className="outlet">
         {activeTab === "studentGroupGenerator" ? (
           <StudentGroupGenerator />
         ) : (
           <HauntedMansion />
         )}
-      </div>
+      </section>
     </div>
   );
 };

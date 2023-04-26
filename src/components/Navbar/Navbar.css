@@ -4,7 +4,7 @@
   background: var(--nav-header-background-color);
   min-width: 7em;
   display: flex;
-  padding-left: 1rem;
+  padding-left: 1rem;               
   text-decoration: none;
 }
 
@@ -27,6 +27,10 @@
   justify-content: space-around;
   align-items: center;
   padding-right: 1rem;
+}
+
+.navlink{
+  text-decoration: none;
 }
 
 nav {

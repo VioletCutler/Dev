@@ -2,7 +2,8 @@ import "./HauntedMansion.css";
 
 const HauntedMansion = () => {
   return (
-    <article className="card-container" id="haunted-mansion-container">
+    <div className="card-container">
+    <article  id="haunted-mansion-container">
       <div id="haunted-mansion-header">
         <h3>Haunted Mansion</h3>
         <div id="haunted-mansion-project-links" className="project-links">
@@ -30,6 +31,8 @@ const HauntedMansion = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
         allowFullScreen
       ></iframe>
+      </article>
+      <article>
       <h4>Overview</h4>
       <div className="paragraph-text card-description">
         <p>
@@ -44,7 +47,8 @@ const HauntedMansion = () => {
           However, once we began to scale the game it became clear that Kaboom
           was not sufficient and is deployed on Github pages
         </p>
-      </div>
+      </div></article>
+      <article>
       <div>
         <h4>Features</h4>
         <div className="paragraph-text card-description">
@@ -73,6 +77,8 @@ const HauntedMansion = () => {
           </ul>
         </div>
       </div>
+      </article>
+      <article>
       <div>
         <h4>Technical Challenges</h4>
         <div className="tech-stack-logo-container">
@@ -90,8 +96,11 @@ const HauntedMansion = () => {
             className="tech-stack-logo"
             src="https://avatars.githubusercontent.com/u/57169982?s=200&v=4"
             alt="White mermaid tail on red background"
-          ></img>
+          ></img>     
         </div>
+
+  
+     
         <div className="card-description">
           <h5>Kaboom JS and Javascript</h5>
           <p className="paragraph-text">
@@ -112,7 +121,9 @@ const HauntedMansion = () => {
             as a way of charting potential game paths a player might encounter.
           </p>
         </div>
-      </div>
+      </div> 
+      </article>
+      <article>
       <div id="haunted-mansion-layout-image-container"></div>
       <img
         id="haunted-mansion-layout-image"
@@ -121,6 +132,7 @@ const HauntedMansion = () => {
         alt="A map of the different room connections inside the haunted mansion"
       ></img>
     </article>
+    </div>
   );
 };
 

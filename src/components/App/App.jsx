@@ -32,7 +32,71 @@ const App = () => {
         </Routes>
     </div>
 
-
+    <table id="background-grid">
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+      <tr className="grid-row">
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+        <td className="grid-cell"></td>
+      </tr>
+    </table>
 
 
       {/* <div id="routes">

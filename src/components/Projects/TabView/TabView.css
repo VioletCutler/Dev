@@ -5,7 +5,7 @@
     height: auto;
     /* background: var(--tab-view-background-color); */
     /* background: #053742; */
-    /* margin: 3.5rem auto 1.5rem; */
+    margin: 3.5rem auto 1.5rem;
     /* padding: 2rem 1rem; */
     /* color: #E8F0F2; */
     /* border-radius: 5%; */
@@ -16,14 +16,16 @@
     
     
    .tab-selectors {
-    width: 100%;
+    position: absolute;
+    top: 3em;
+    width: 80%;
     margin: 0 auto 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid #39A2DB; 
     border-radius: 2rem;
-    background: var(--tab-view-background-color);
+    background: var(--tab-selectors-background-color);
     padding-left: 0px; 
      @media (max-width: 768px) {
       width: 90%;
@@ -49,8 +51,8 @@
     
   }
   .tab-selectors li:hover {
-    background: var(--main-background-color);
+    background: #fef9b3;
   }
   .tab-selectors li.active {
-    background: #39A2DB;
+    background: #93fdb1;
   }
