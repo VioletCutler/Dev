@@ -30,15 +30,8 @@
 
 #haunted-mansion-video {
     width: 100%;
+    min-height: 10em;
     margin: 1em 0 1em 0;
 }
 
 
-@media screen and (max-width: 480px){
-    #haunted-mansion-image-container{
-        display: none;
-    }
-    #haunted-mansion-header {
-        display:block;
-    }
-}

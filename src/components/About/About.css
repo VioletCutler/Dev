@@ -4,19 +4,19 @@
 
 #violet-main-photo{
     float: left;
-    max-width: 10em;
+    max-width: 9em;
 }
 
 #vhs-selfie{
     float: right;
-    max-width: 10em;
+    max-width: 9em;
     /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
  
 }
 
 #video-teacher-photo{
     float: left;
-    max-width: 10em;
+    max-width: 17em;
     /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
   
 }
