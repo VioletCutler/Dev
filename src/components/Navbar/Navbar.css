@@ -5,7 +5,21 @@
   min-width: 7em;
   display: flex;
   padding-left: 1rem;
+  text-decoration: none;
 }
+
+#navbar-header:visited {
+    color: var(--header-visited)
+}
+
+#navbar-header:hover, #navbard-header:focus {
+    color:var(--header-hover-focus)
+}
+
+#navbar-header:active {
+    color: var(--header-active)
+}
+
 
 #navlinks {
   min-width: 13em;
