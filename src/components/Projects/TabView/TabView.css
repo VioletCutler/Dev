@@ -9,7 +9,6 @@
     /* padding: 2rem 1rem; */
     /* color: #E8F0F2; */
     /* border-radius: 5%; */
-    padding: 2rem 0;
     @media (max-width: 769px) {
     
     }
@@ -42,6 +41,7 @@
     border-top-left-radius: 2rem;
     white-space:nowrap;
   }
+  
   .tab-selectors li:nth-child(2) {
     border-radius: 0;
     border-bottom-right-radius: 2rem;

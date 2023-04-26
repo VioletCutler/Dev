@@ -6,9 +6,9 @@ const Homepage = () => {
     <div id="homepage">
       <div id="homepage-header">
         <h2>welcome to violet.dev</h2>
-        <Link to="/about">click here to enter</Link>
+        <Link id="click-to-enter" to="/about">ENTER</Link>
       </div>
-      <div id="homepage-background">Hello</div>
+      <div id="homepage-background"></div>
     </div>
   );
 };
