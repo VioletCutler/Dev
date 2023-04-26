@@ -3,7 +3,7 @@ const About = () => {
   return (
     <section>
       <h2>About</h2>
-      <article className="card-container">
+      <article className="card-container about-container">
         <h3>Overview</h3>
         <p className="paragraph-text">
           <img
@@ -18,7 +18,7 @@ const About = () => {
           eleifend leo.
         </p>
       </article>
-      <article className="card-container">
+      <article className="card-container about-container">
         <h3>Life Before Coding</h3>
         <p className="paragraph-text">
           <img

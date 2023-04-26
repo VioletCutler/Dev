@@ -1,32 +1,38 @@
 #homepage-header {
   position: relative;
-  left: 50%;
-  bottom: 50%;
-  right: 50%;
-  top: 50%;
+  top: 40%;
+  text-align: center;
+  background: radial-gradient(#000000, #101B24, #1D352C);
+  color: #fff2c5;
+  align-items: center;
+  border-top: 1px inset #B1CDCE;
+  border-bottom: 1px outset #B1CDCE;
 }
 
 #homepage-background {
-   position: absolute;
+    position: absolute;
   left: 0;
-  right: 0;
   top: 0;
+  right: 0;
   bottom: 0;
+  color:purple;
   z-index: -1;
-  /* scale: 80%; */
-  background-image: url(/src/components/Homepage/Dev-Page-Background.png);
-  background-position: center;
-  background-size: contain;
+
+  background-image: url(/src/components/Homepage/mirror.jpeg);
+  /* background-position: center; */
+  background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 #homepage {
     height: 100%;
-  background: linear-gradient(#275122, rgb(1, 11, 1));
+  background: linear-gradient(#060c05, rgb(1, 11, 1));
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -2;
+
 }
