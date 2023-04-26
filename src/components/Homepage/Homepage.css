@@ -7,7 +7,7 @@
 }
 
 #homepage-background {
-  position: absolute;
+   position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -15,11 +15,13 @@
   z-index: -1;
   /* scale: 80%; */
   background-image: url(/src/components/Homepage/Dev-Page-Background.png);
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #homepage {
+    height: 100%;
   background: linear-gradient(#275122, rgb(1, 11, 1));
   position: absolute;
   left: 0;

@@ -3,11 +3,11 @@ import './StudentGroupGenerator.css'
 const StudentGroupGenerator = () => {
     return (
         <article
-        className="project-container"
+        className="card-container"
         id="student-group-generator-container"
       >
         <h3>Student Group Generator</h3>
-        <div className="project-description">
+        <div className="card-description">
           <h4>Overview</h4>
           <p className="paragraph-text">
             Student Group Generator is a personal project I built to solve a
@@ -18,7 +18,7 @@ const StudentGroupGenerator = () => {
             evolved into a complete Fullstack application
           </p>
         </div>
-        <div className="project-description">
+        <div className="card-description">
           <h4>Project Goals</h4>
           <p className="paragraph-text">
             Student Group Generator allows a user to create a list of students

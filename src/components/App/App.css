@@ -2,14 +2,13 @@
     --main-background-color: #feffe8;
     --main-font-color: #524d4d;
 
-    --card-background-color: blue;
-    --card-text-background-color: #d9d9d9;
+    --card-background-color: rgb(216, 216, 250);
+    --card-text-background-color: #f7ce1c;
     --card-box-border:1px solid rgb(0, 0, 0);
     --card-box-shadow: .5rem .5rem 1rem 0.5rem var(--card-box-shadow-color);
     --card-box-shadow-color: #d5d7b9;
     --card-box-border-radius: 5%;
     --card-margin: 1em 0 1em 0;
-
 
     --nav-background-color: linear-gradient(#ffebeb, #ffffff);
     --nav-header-background-color: linear-gradient(#ffebeb, #ffffff);
@@ -38,6 +37,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 #routes {
@@ -45,6 +45,23 @@ body {
     padding-left:2em;
     padding-right:2em;
     max-width:30em;
+}
+
+.card-container {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    background: var(--card-background-color);
+    border: 1px solid green;
+    padding: 1em;
+    box-shadow: var(--card-box-shadow);
+}
+
+.card-description {
+    padding: 1rem;
+    border: var(--card-box-border);
+    background-color: var(--card-text-background-color);
+    border-radius: var(--card-box-border-radius);
+    margin: var(--card-margin)
 }
 /* .paragraph-text {
     font-size: 1.4rem;

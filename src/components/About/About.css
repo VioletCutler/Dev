@@ -1,0 +1,34 @@
+:root{
+    --about-box-shadow-color: #ecfb19;
+}
+
+#violet-main-photo{
+    float: left;
+    max-width: 10em;
+}
+
+#vhs-selfie{
+    float: right;
+    max-width: 10em;
+    /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
+ 
+}
+
+#video-teacher-photo{
+    float: left;
+    max-width: 10em;
+    /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
+  
+}
+
+.left-about-photo{
+    margin: .5em .5em .5em 0;
+}
+
+.right-about-photo{
+    margin: .5em 0em .5em .5em;;
+}
+
+#snow-video{
+    float:left;
+}

@@ -20,21 +20,9 @@
 
 
 
-.project-description {
-    padding: 1rem;
-    border: var(--card-box-border);
-    background-color: var(--card-text-background-color);
-    border-radius: var(--card-box-border-radius);
-    margin: var(--card-margin)
-}
 
-.project-container {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-    border: 1px solid green;
-    padding: 1em;
-    box-shadow: var(--card-box-shadow);
-}
+
+
 
 
 .project-links {
