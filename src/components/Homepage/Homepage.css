@@ -7,17 +7,18 @@
   align-items: center;
   border-top: 1px inset #B1CDCE;
   border-bottom: 1px outset #B1CDCE;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
 }
 
 #homepage-background {
-    position: absolute;
+position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   color:purple;
-  z-index: -1;
-
   background-image: url(/src/components/Homepage/mirror.jpeg);
   /* background-position: center; */
   background-size: cover;
@@ -33,6 +34,4 @@
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: -2;
-
 }
