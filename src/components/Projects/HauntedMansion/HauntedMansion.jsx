@@ -5,7 +5,6 @@ const HauntedMansion = () => {
     <div className="card-container">
     <article  id="haunted-mansion-container">
       <div id="haunted-mansion-header">
-        <h3>Haunted Mansion</h3>
         <div id="haunted-mansion-project-links" className="project-links">
           <a
             className="haunted-mansion-project-link"

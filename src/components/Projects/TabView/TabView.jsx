@@ -9,7 +9,10 @@ const TabView = () => {
   }
 
   return (
+    <div>
+       <h2 id="project-header">Projects</h2>
     <div className="tabs">
+     
       <ul className="tab-selectors">
         <li
           onClick={() => {
@@ -28,14 +31,22 @@ const TabView = () => {
           Haunted Mansion
         </li>
       </ul>
+      
       <section className="outlet">
         {activeTab === "studentGroupGenerator" ? (
-          <StudentGroupGenerator />
+          <div>
+            <h2 className="card-header">Student Group Generator</h2>
+               <StudentGroupGenerator />
+          </div>
+       
         ) : (
+          <div>
+            <h2 className="card-header">Haunted Mansion</h2>
           <HauntedMansion />
+          </div>
         )}
       </section>
-    </div>
+    </div></div>
   );
 };
 

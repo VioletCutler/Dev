@@ -44,9 +44,12 @@
     background:white;
 }
 
-.about-header {
-    background: rgb(115, 115, 173);
-    text-align: center;
-    color: var(--card-header-font-color);
-    font-size:1.1em;
+.coding-proficiency-list-item{
+    list-style-type: none;
+    font-size:1.05em;
+}
+
+.coding-proficiency-icon {
+    max-width: 2em;
+    background: var(--main-background-color);
 }

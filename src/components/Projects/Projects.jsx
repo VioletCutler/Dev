@@ -3,7 +3,7 @@ import { HauntedMansion, StudentGroupGenerator } from '../index'
 
 const Projects = () => {
   return (
-    <section>
+<div>
  
     <button>Student Group Generator</button>
     <button>Haunted Mansion</button>
@@ -11,7 +11,7 @@ const Projects = () => {
      <StudentGroupGenerator/>
       <HauntedMansion/>
       <h2 id="project-header">Project Portfolio</h2>
-    </section>
+</div>
   );
 };
 

@@ -102,3 +102,10 @@ body {
     border-radius: var(--card-box-border-radius);
     margin: var(--card-margin)
 }
+
+.card-header {
+    background: rgb(115, 115, 173);
+    text-align: center;
+    color: var(--card-header-font-color);
+    font-size:1.1em;
+}
