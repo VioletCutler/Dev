@@ -14,14 +14,23 @@
     --card-margin: 1em 0 1em 0;
 
     --link-visited:#007af4;
+
     --link-hover-focus: #00b7f4;
+
     --link-active: #ff0000;
+
     --link: #007af4;
 
     /* Navbar */
     --header-visited: #007af4;
+    --header-visited-text-shadow: .04em .04em rgb(255, 155, 155);
+
     --header-hover-focus: #00b7f4;
+    --header-hover-focus-text-shadow: .04em .04em rgb(253, 217, 217);
+
     --header-active: #ff0000;
+    --header-active-text-shadow: .04em .04em  #46cefb;
+
     --nav-background-color: linear-gradient(#ffebeb, #ffffff);
     --nav-header-background-color: linear-gradient(#ffebeb, #ffffff);
     --nav-border-color: darkgoldenrod;

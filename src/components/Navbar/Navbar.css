@@ -6,18 +6,23 @@
   display: flex;
   padding-left: 1rem;               
   text-decoration: none;
+  text-shadow:var(--header-visited-text-shadow);
 }
 
 #navbar-header:visited {
-    color: var(--header-visited)
+    color: var(--header-visited);
+    text-shadow: var(--header-visited-text-shadow);
 }
 
 #navbar-header:hover, #navbard-header:focus {
-    color:var(--header-hover-focus)
+    color:var(--header-hover-focus);
+    text-shadow: var(--header-hover-focus-text-shadow);
 }
 
+
 #navbar-header:active {
-    color: var(--header-active)
+    color: var(--header-active);
+    text-shadow: var(--header-active-text-shadow)
 }
 
 #navlinks {
