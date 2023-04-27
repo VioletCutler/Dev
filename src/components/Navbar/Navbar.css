@@ -31,11 +31,26 @@
 
 .navlink{
   text-decoration: none;
+  color: var(--link);
+  transition: transform 500ms;
+}
+
+.navlink:visited{
+  color: var(--link-visited);
+}
+
+.navlink:hover, .navlink:focus{
+  transform: translateY(-.075rem);
+  color:var(--link-hover-focus);
+}
+
+.navlink:active{
+  color: var(--link-active);
 }
 
 nav {
   background: var(--nav-header-background-color);
-  border-bottom: 2px inset darkgoldenrod;
+  border-bottom: 2px inset var(--nav-border-color);
   width: 100%;
   position: fixed;
   top: 0;

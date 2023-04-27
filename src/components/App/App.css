@@ -1,16 +1,11 @@
 :root {
+    /* Main elements*/
     --main-background-color: #feffe8;
-    --main-font-color: #524d4d;
+    --main-font-color: #332600;
 
-    --header-visited: #007af4;
-    --header-hover-focus: #00ff33;
-    --header-active: #ff0000;
-
-    --link-visited:#007af4;
-    --link-hover-focus: #00ff33;
-    --link-active: #ff0000;
-    
-    --card-background-color: rgb(169, 169, 255);
+    --card-header-font-color:#fffcfc; 
+    --card-container-border-color:rgb(0, 0, 0);
+    --card-background-color: rgb(156, 156, 234);
     --card-text-background-color: rgb(216, 216, 250);
     --card-box-border:1px solid rgb(0, 0, 0);
     --card-box-shadow: .5rem .5rem .1rem var(--card-box-shadow-color);
@@ -18,10 +13,31 @@
     --card-box-border-radius: 5%;
     --card-margin: 1em 0 1em 0;
 
+    --link-visited:#007af4;
+    --link-hover-focus: #00b7f4;
+    --link-active: #ff0000;
+    --link: #007af4;
+
+    /* Navbar */
+    --header-visited: #007af4;
+    --header-hover-focus: #00b7f4;
+    --header-active: #ff0000;
     --nav-background-color: linear-gradient(#ffebeb, #ffffff);
     --nav-header-background-color: linear-gradient(#ffebeb, #ffffff);
-
+    --nav-border-color: darkgoldenrod;
+   
+    /* About */
+    --name-and-pronouns-background-color: white;
+   
+    /* Tab project view */
     --tab-selectors-background-color: rgb(216, 216, 250);
+
+    /* Homepage */
+    --click-to-enter-color: var(--header-visited);
+    --click-to-enter-visited: var(--header-visited);
+    --click-to-enter-hover-focus: var(--header-hover-focus);
+    --click-to-enter-active: var(--header-active)
+
 }
 
 * {
@@ -29,7 +45,10 @@
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
+    font-family: Verdana;
+    letter-spacing: .1em;
 }
+
 @media (max-width: 700px){
     *{
         font-size: 1.2rem;
@@ -38,7 +57,6 @@
 
 html, body {
     height: 100%;
-    /* width: 100%; */
 }
 
 body {
@@ -46,7 +64,7 @@ body {
     color:var(--main-font-color);
     height: 100%;
     background-size: 40px 40px;
-  background-image:
+    background-image:
     linear-gradient(to right, rgb(145, 145, 145) 1px, transparent 3px),
     linear-gradient(to bottom, rgb(145, 145, 145) 1px, transparent 1px);
 }
@@ -67,15 +85,12 @@ body {
     margin-top: 6em;
     padding-left:2em;
     padding-right:2em;
-    max-width:30em;
-    /* background-color: green; */
+    max-width:27em;
 }
 
 .card-container {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     background: var(--card-background-color);
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid ;
     padding: 1em;
     box-shadow: var(--card-box-shadow);
 }
@@ -87,34 +102,3 @@ body {
     border-radius: var(--card-box-border-radius);
     margin: var(--card-margin)
 }
-
-/* .paragraph-text {
-    font-size: 1.4rem;
-} */
-
-
-/* 
-Background Grid
-*/
-/* 
-#background-grid {
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    border: 1px solid black;
-    width: 100%;
-    height: 100%;
-    z-index: -3;
-}
-
-.grid-row{
-    border: 1px solid black;
-    border-spacing: 0;
-    z-index:-3;
-}
-
-.grid-cell{
-    border:1px solid black;
-    border-spacing: 0;
-    z-index: -3;
-} */

@@ -30,11 +30,9 @@ position: absolute;
   bottom: 0;
   color:purple;
   background-image: url(/src/components/Homepage/mirror.jpeg);
-  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  filter: blur(2px);
 }
 
 #homepage {
@@ -48,5 +46,14 @@ position: absolute;
 }
 
 #click-to-enter {
-    color: white;
+    color: var(--click-to-enter-color);
+}
+#click-to-enter:visited {
+  color: var(--click-to-enter-visited);
+}
+#click-to-enter:hover, #click-to-enter:focus {
+  color: var(--click-to-enter-hover-focus);
+}
+#click-to-enter:active {
+  color: var(--click-to-enter-active);
 }

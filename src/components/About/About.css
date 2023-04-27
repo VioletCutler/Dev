@@ -22,10 +22,12 @@
 }
 
 .left-about-photo{
+    border: 1px solid white;
     margin: .5em .5em .5em 0;
 }
 
 .right-about-photo{
+    border: 1px solid white;
     margin: .5em 0em .5em .5em;;
 }
 
@@ -35,4 +37,16 @@
 
 .about-container{
     margin-bottom: 1em;
+}
+
+#name-and-pronouns {
+    color: rgb(67, 67, 92);
+    background:white;
+}
+
+.about-header {
+    background: rgb(115, 115, 173);
+    text-align: center;
+    color: var(--card-header-font-color);
+    font-size:1.1em;
 }
