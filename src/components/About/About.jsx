@@ -16,7 +16,7 @@ const About = () => {
       </article>
       <h2 className="card-header">Coding Proficiencies</h2>
       <article className='card-container about-container'>
-        <ul>
+        <ul id="coding-proficiency-list">
           <li className="coding-proficiency-list-item"><img className="coding-proficiency-icon" src="https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg"/>Javascript</li>
           <li className="coding-proficiency-list-item"><img className="coding-proficiency-icon" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"/>Node</li>
           <li className="coding-proficiency-list-item"><img className="coding-proficiency-icon" src="https://w7.pngwing.com/pngs/545/451/png-transparent-node-js-express-js-javascript-solution-stack-web-application-others-angle-text-rectangle-thumbnail.png"/>Express</li>

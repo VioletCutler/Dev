@@ -20,7 +20,6 @@
     color: var(--header-active)
 }
 
-
 #navlinks {
   min-width: 13em;
   display: flex;
@@ -60,4 +59,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   z-index: 99;
+}
+
+@media (width < 700px){
+    #navbar-header{
+      font-size: .8em;
+    }
+    .navlink{
+      font-size:.8em;
+    }
 }

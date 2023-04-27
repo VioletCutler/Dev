@@ -1,58 +1,46 @@
-@import '../../App/App.css';
+@import "../../App/App.css";
 
 .tabs {
-    width: 100%;
-    height: auto;
-    /* background: var(--tab-view-background-color); */
-    /* background: #053742; */
-    margin: 3.5rem auto 1.5rem;
-    /* padding: 2rem 1rem; */
-    /* color: #E8F0F2; */
-    /* border-radius: 5%; */
-    @media (max-width: 769px) {
-    
-    }
- }
-    
-    
-   .tab-selectors {
-    position: absolute;
-    top: 3em;
-    width: 80%;
-    margin: 0 auto 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #39A2DB; 
-    border-radius: 2rem;
-    background: var(--tab-selectors-background-color);
-    padding-left: 0px; 
-     @media (max-width: 768px) {
-      width: 90%;
-    }
-  }
+  width: 100%;
+  height: auto;
+  margin: 3.5rem auto 1.5rem;
+}
 
-  .tab-selectors li {
-    width: 50%;
-    padding: 1rem;
-    list-style: none;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.7s;
-    border-bottom-left-radius: 2rem;
-    border-top-left-radius: 2rem;
-    white-space:nowrap;
-  }
-  
-  .tab-selectors li:nth-child(2) {
-    border-radius: 0;
-    border-bottom-right-radius: 2rem;
-    border-top-right-radius: 2rem;
-    
-  }
-  .tab-selectors li:hover {
-    background: #fef9b3;
-  }
-  .tab-selectors li.active {
-    background: #93fdb1;
-  }
+.tab-selectors {
+  margin: -1em auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid var(--card-container-border-color);
+  border-radius: 2rem;
+  background: var(--tab-selectors-background-color);
+  padding-left: 0px;
+  box-shadow: var(--card-box-shadow)
+}
+
+.tab-selectors li {
+  font-size: .8em;
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  white-space: nowrap;
+}
+
+.tab-selectors li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-left: 3px solid var(--card-container-border-color)
+
+}
+.tab-selectors li:hover {
+  background: #fef9b3;
+}
+.tab-selectors li.active {
+  background: #93fdb1;
+}

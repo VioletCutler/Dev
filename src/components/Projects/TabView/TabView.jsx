@@ -10,7 +10,10 @@ const TabView = () => {
 
   return (
     <div>
-       <h2 id="project-header">Projects</h2>
+      <div id="projects-header-container">
+      <h2 id="projects-header">Projects</h2>
+      </div>
+ 
     <div className="tabs">
      
       <ul className="tab-selectors">

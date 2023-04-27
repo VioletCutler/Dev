@@ -2,11 +2,16 @@
 
 /* Projects */
 
-#project-header {
-    text-align: center;
+#projects-header-container {
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color:lightblue;
     box-shadow: var(--card-box-shadow);
+    border-radius: 2rem;
 }
+
 
 .tech-stack-logo-container{
     display: flex;
@@ -18,15 +23,9 @@
     width:30%;
 }
 
-
-
-
-
-
-
-
 .project-links {
-    border: 1px solid red;
+    border: 3px solid red;
+    width: 80%;
 }
 
 
