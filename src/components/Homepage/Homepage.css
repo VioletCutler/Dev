@@ -1,59 +1,136 @@
+@import "../App/App.css";
+
 #homepage-header {
-  position: relative;
-  top: 40%;
-  text-align: center;
-  background: radial-gradient(#000000, #101B24, #1D352C);
-  color: #fff2c5;
-  align-items: center;
-  border-top: 1px inset #B1CDCE;
-  border-bottom: 1px outset #B1CDCE;
-  display: flex;
-  justify-content: space-around;
-  z-index: 1;
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  /* width: 10em;
+  height: 10em;
+  border-radius: 50%; */
+  /* text-align: center; */
+  /* background: var(--card-background-color); */
+  color: var(--main-font-color);
+  /* align-items: center; */
+  /* border-top: 3px inset goldenrod; */
+  /* border-bottom: 3px outset goldenrod; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* z-index: 1; */
+  /* height: 5em; */
+  /* width: 40%; */
 }
+
+#homepage-header-circle{
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  background: #E48EEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 #homepage-header > * {
-    font-size: 35px;
+  font-size: 35px;
 }
 
-@media (max-width: 700px){
-    #homepage-header > *{
-        font-size: 35px;
-    }
+
+
+.circle {
+  /* z-index:999; */
+  z-index: -1;
+  position: absolute;
+  display: inline-block;
+  background: purple;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
+
+/* .test-circle{
+  background: bradial-gradient(ellipse at center, #ffbdd7 0%, #ffbdd7 30%, transparent 30%);
+  display: inline-block;
+  width:100px;
+  height: 100px;
+} */
+
+/* .box {
+  position: absolute;
+    width:100%;
+    height:100%;
+    border:1px solid;
+    background:
+      radial-gradient(farthest-side,yellow 32%,yellow 90% ,purple 93%, purple 96%,transparent) left center/60px 60px,
+      radial-gradient(farthest-side,yellow 96%,transparent) bottom left/80px 80px,
+      radial-gradient(farthest-side,green  96%,transparent) top right/80px 80px,
+      radial-gradient(farthest-side,blue   96%,transparent) 100px 50px/100px 100px,
+      radial-gradient(farthest-side,red    96%,transparent) top left/40px 40px;
+       the circle                                          position / size
+    background-repeat:no-repeat;
+}
+ */
 
 #homepage-background {
-position: absolute;
+  z-index: -1;
+   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  color:purple;
-  background-image: url(/src/components/Homepage/mirror.jpeg);
+  color: purple;
+  background-image: url(/src/components/Homepage/Test-Homepage-Background-Web-Dev-Resume.png);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
 #homepage {
-    height: 100%;
-  background: linear-gradient(#060c05, rgb(1, 11, 1));
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  /* height: 100%; */
+  /* background: linear-gradient(#060c05, rgb(1, 11, 1)); */
+  /* position: absolute; */
 }
 
 #click-to-enter {
-    color: var(--click-to-enter-color);
+  color: var(--click-to-enter-color);
 }
 #click-to-enter:visited {
   color: var(--click-to-enter-visited);
 }
-#click-to-enter:hover, #click-to-enter:focus {
+#click-to-enter:hover,
+#click-to-enter:focus {
   color: var(--click-to-enter-hover-focus);
 }
 #click-to-enter:active {
   color: var(--click-to-enter-active);
+}
+
+
+@media (max-width: 700px) {
+  #homepage-header > * {
+    font-size: 0.9em;
+  }
+
+  #homepage-header-circle > h2 {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (max-height: 500px) {
+  #homepage-header > * {
+    font-size: 0.9em;
+  }
+
+  #homepage-header-circle > h2 {
+    width: 80%;
+    text-align: center;
+  }
+
+  #homepage-header-circle {
+    position: relative;
+    top: 0;
+  }
 }

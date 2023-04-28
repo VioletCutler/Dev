@@ -5,8 +5,11 @@ const Homepage = () => {
   return (
     <div id="homepage">
       <div id="homepage-header">
-        <h2>welcome to violet.dev</h2>
-        <Link id="click-to-enter" to="/about">ENTER</Link>
+        <div id="homepage-header-circle">
+        <h2>welcome to violet.dev</h2><Link id="click-to-enter" to="/about">
+          Enter
+        </Link></div>
+        
       </div>
       <div id="homepage-background"></div>
     </div>

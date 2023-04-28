@@ -31,8 +31,8 @@
     --header-active: #ff0000;
     --header-active-text-shadow: .04em .04em  #46cefb;
 
-    --nav-background-color: linear-gradient(#ffebeb, #ffffff);
-    --nav-header-background-color: linear-gradient(#ffebeb, #ffffff);
+    /* --nav-background-color: linear-gradient(#ffebeb, #ffffff); */
+    --nav-header-background-color: linear-gradient(#ffd8d8, #fff2d8);
     --nav-border-color: darkgoldenrod;
    
     /* About */
@@ -42,8 +42,8 @@
     --tab-selectors-background-color: rgb(216, 216, 250);
 
     /* Homepage */
-    --click-to-enter-color: var(--header-visited);
-    --click-to-enter-visited: var(--header-visited);
+    --click-to-enter-color: #01305e;
+    --click-to-enter-visited: #01305e;
     --click-to-enter-hover-focus: var(--header-hover-focus);
     --click-to-enter-active: var(--header-active)
 
