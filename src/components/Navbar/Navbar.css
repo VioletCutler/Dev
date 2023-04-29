@@ -1,7 +1,7 @@
 @import "../App/App.css";
 
 #navbar-header {
-  background: var(--nav-header-background-color);
+  /* background: var(--nav-header-background-color); */
   min-width: 7em;
   display: flex;
   padding-left: 1rem;               
@@ -9,68 +9,121 @@
   text-shadow:var(--header-visited-text-shadow);
 }
 
-#navbar-header:visited {
-    color: var(--header-visited);
-    text-shadow: var(--header-visited-text-shadow);
-}
-
-#navbar-header:hover, #navbard-header:focus {
-    color:var(--header-hover-focus);
-    text-shadow: var(--header-hover-focus-text-shadow);
-}
-
-
-#navbar-header:active {
-    color: var(--header-active);
-    text-shadow: var(--header-active-text-shadow)
-}
-
-#navlinks {
-  min-width: 13em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-right: 1rem;
-}
-
-.navlink{
-  text-decoration: none;
-  color: var(--link);
-  transition: transform 500ms;
-}
-
-.navlink:visited{
-  color: var(--link-visited);
-}
-
-.navlink:hover, .navlink:focus{
-  transform: translateY(-.075rem);
-  color:var(--link-hover-focus);
-}
-
-.navlink:active{
-  color: var(--link-active);
-}
-
 nav {
   background: var(--nav-header-background-color);
   border-bottom: 2px inset var(--nav-border-color);
-  width: 100%;
+  /* width: 100%; */
   position: fixed;
   top: 0;
   left: 0;
-  height: 2em;
+  min-height: 4em;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   z-index: 99;
+  padding-bottom: .5em;
 }
 
-@media (width < 700px){
-    #navbar-header{
-      font-size: .8em;
-    }
-    .navlink{
-      font-size:.8em;
-    }
+nav {
+  display:flex;
+  width: 100vw;
+
+  height: 2.4em;
+  /* padding: none; */
+  /* margin: none; */
+}
+
+#navbar-header { 
+  font-size: 0.8em;
+  width: 100%;
+  justify-self: flex-start;
+  align-self:flex-start;
+}
+
+#navlinks {
+  min-width:0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navlink {
+  font-size: 0.8em;
+}
+
+
+
+@media (min-width: 800px) {
+  #navbar-header {
+    background: var(--nav-header-background-color);
+    min-width: 7em;
+    display: flex;
+    padding-left: 1rem;               
+    text-decoration: none;
+    text-shadow:var(--header-visited-text-shadow);
+    justify-self: flex-end;
+    align-self:flex-end;
+  }
+  
+  #navbar-header:visited {
+      color: var(--header-visited);
+      text-shadow: var(--header-visited-text-shadow);
+  }
+  
+  #navbar-header:hover, #navbard-header:focus {
+      color:var(--header-hover-focus);
+      text-shadow: var(--header-hover-focus-text-shadow);
+  }
+  
+  
+  #navbar-header:active {
+      color: var(--header-active);
+      text-shadow: var(--header-active-text-shadow)
+  }
+  
+  #navlinks {
+    min-width: 13em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-right: 1rem; */
+  }
+  
+  .navlink{
+    text-decoration: none;
+    color: var(--link);
+    transition: transform 500ms;
+  }
+  
+  .navlink:visited{
+    color: var(--link-visited);
+  }
+  
+  .navlink:hover, .navlink:focus{
+    transform: translateY(-.075rem);
+    color:var(--link-hover-focus);
+  }
+  
+  .navlink:active{
+    color: var(--link-active);
+  }
+  
+  nav {
+    min-height: 0;
+    background: var(--nav-header-background-color);
+    border-bottom: 2px inset var(--nav-border-color);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    z-index: 99;
+
+  }
 }
