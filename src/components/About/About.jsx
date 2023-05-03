@@ -5,12 +5,13 @@ const About = () => {
     <h2 className="card-header">About</h2>
   
       <article className="card-container about-container">
-        <p className="paragraph-text">
-          <img
+      <img
             id="violet-main-photo"
             className="left-about-photo"
             src="https://i.imgur.com/rp8I9BQ.jpg"
           />
+        <p className="paragraph-text">
+      
          <span className="no-wrap">My name is </span><br/><span id='name-and-pronouns'>Violet (they/she)</span> and I'm a programmer, artist and organizer living in Philadelphia. I graduated from the Grace Hopper Program at Fullstack Academy in April, 2022. I build fullstack web applications using the PERN stack and have taken a special interest in accessibility on the web. I am currently working through the W3C Introduction to Web Accessibility Course. 
         </p>
       </article>

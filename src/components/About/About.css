@@ -5,19 +5,19 @@
 #violet-main-photo{
     float: none;
     width: 100%;
-    max-width: 9em;
+    max-width: 15em;
 }
 
 #vhs-selfie{
     float: none;
-    max-width: 9em;
+    max-width: 15em;
     /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
  
 }
 
 #video-teacher-photo {
-    float: none;
-    /* width: 100%; */
+    float: left;
+    max-width:17em;
 }
 
 .coding-proficiency-icon {
@@ -57,6 +57,10 @@
     border: 3px solid var(--card-container-border-color);
 }
 
+   #name-and-pronouns {
+        color: rgb(67, 67, 92);
+        background:white;
+    }
 
 @media (min-width: 800px){
 
@@ -101,10 +105,7 @@
         margin-bottom: 1em;
     }
     
-    #name-and-pronouns {
-        color: rgb(67, 67, 92);
-        background:white;
-    }
+ 
     
     #coding-proficiency-list{
         display: grid;
