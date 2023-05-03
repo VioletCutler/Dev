@@ -123,6 +123,15 @@ body {
     margin: var(--card-margin);
   }
 
+  .project-ul {
+    padding-top: 1em;
+  }
+  .project-ul > *{
+    font-size: var(--project-ul-font-size);
+    font-style: italic;
+    padding-left: 0.5em;
+  }
+
 @media (min-width: 800px) {
     * {
         box-sizing: border-box;
@@ -182,15 +191,6 @@ body {
         border-left: 3px solid var(--card-container-border-color);
         border-top: 3px solid var(--card-container-border-color);
         border-right: 3px solid var(--card-container-border-color);
-      }
-      
-      .project-ul {
-        padding-top: 1em;
-      }
-      .project-ul > *{
-        font-size: var(--project-ul-font-size);
-        font-style: italic;
-        padding-left: 0.5em;
       }
 }
 
