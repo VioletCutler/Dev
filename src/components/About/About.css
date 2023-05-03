@@ -3,50 +3,21 @@
 }
 
 #violet-main-photo{
-    float: left;
+    float: none;
+    width: 100%;
     max-width: 9em;
 }
 
 #vhs-selfie{
-    float: right;
+    float: none;
     max-width: 9em;
     /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
  
 }
 
-#video-teacher-photo{
-    float: left;
-    max-width: 17em;
-    /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
-  
-}
-
-.left-about-photo{
-    border: 1px solid white;
-    margin: .5em .5em .5em 0;
-}
-
-.right-about-photo{
-    border: 1px solid white;
-    margin: .5em 0em .5em .5em;;
-}
-
-#snow-video{
-    float:left;
-}
-
-.about-container{
-    margin-bottom: 1em;
-}
-
-#name-and-pronouns {
-    color: rgb(67, 67, 92);
-    background:white;
-}
-
-.coding-proficiency-list-item{
-    list-style-type: none;
-    font-size:1.05em;
+#video-teacher-photo {
+    float: none;
+    /* width: 100%; */
 }
 
 .coding-proficiency-icon {
@@ -54,7 +25,93 @@
     background: var(--main-background-color);
 }
 
-#coding-proficiency-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.coding-proficiency-list-item{
+    list-style-type: none;
+    font-size:1.05em;
+}
+
+#video-teacher-photo{
+    float: none;
+    max-width: 9em;
+    /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
+  
+}
+
+#coding-proficiency-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+* {
+    font-size: 1.2rem;
+}
+
+
+.left-about-photo{
+    border: 3px solid var(--card-container-border-color);
+}
+
+.right-about-photo{
+    border: 3px solid var(--card-container-border-color);
+}
+
+
+@media (min-width: 800px){
+
+    * {
+        font-size: 1.5rem;
+    }
+
+    #violet-main-photo{
+        float: left;
+        max-width: 9em;
+    }
+   
+    #vhs-selfie{
+        float: right;
+        /* max-width: 9em; */
+        /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
+     
+    }
+
+    #video-teacher-photo{
+        float: left;
+        max-width: 17em;
+        /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
+      
+    }
+    
+    .left-about-photo{
+        border: 3px solid var(--card-container-border-color);
+        margin: .5em .5em .5em 0;
+    }
+    
+    .right-about-photo{
+        border: 3px solid var(--card-container-border-color);
+        margin: .5em 0em .5em .5em;;
+    }
+    
+    #snow-video{
+        float:left;
+    }
+    
+    .about-container{
+        margin-bottom: 1em;
+    }
+    
+    #name-and-pronouns {
+        color: rgb(67, 67, 92);
+        background:white;
+    }
+    
+    #coding-proficiency-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* .coding-proficiency-icon {
+       padding-right: 1em;
+    } */
 }

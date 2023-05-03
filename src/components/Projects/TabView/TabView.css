@@ -1,46 +1,155 @@
 @import "../../App/App.css";
 
+/* #projects-header-container {
+  height: 2em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:lightblue;
+  box-shadow: var(--card-box-shadow);
+  padding: 1.5em;
+  border-radius: 2rem;
+} */
+
+
+.tech-stack-logo-container{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+
+.tech-stack-logo {
+  width:30%;
+}
+
+/* .project-links {
+  border: 3px solid red;
+  width: 80%;
+} */
+
+
+/* Tabs */
+
 .tabs {
   width: 100%;
-  height: auto;
-  margin: 3.5rem auto 1.5rem;
+  /* height: auto; */
+  margin: 3.5em auto 1.5em;
 }
 
 .tab-selectors {
-  margin: -1em auto 2rem;
+  margin: 3em auto 2rem;
   display: flex;
+  flex-direction: column;;
   align-items: center;
   justify-content: space-between;
   border: 3px solid var(--card-container-border-color);
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   background: var(--tab-selectors-background-color);
   padding-left: 0px;
-  box-shadow: var(--card-box-shadow)
+  box-shadow: var(--card-box-shadow);
 }
 
 .tab-selectors li {
-  font-size: .8em;
-  width: 50%;
+  font-size: 0.8em;
+  width: 100%;
   padding: 1rem;
   list-style: none;
   text-align: center;
   cursor: pointer;
   transition: all 0.7s;
-  border-bottom-left-radius: 2rem;
-  border-top-left-radius: 2rem;
+  /* border-bottom-left-radius: 2rem; */
+  /* border-top-left-radius: 2rem; */
   white-space: nowrap;
 }
 
 .tab-selectors li:nth-child(2) {
   border-radius: 0;
-  border-bottom-right-radius: 2rem;
-  border-top-right-radius: 2rem;
-  border-left: 3px solid var(--card-container-border-color)
+    border-top: 3px solid black;
+  /* border-bottom-right-radius: 2rem; */
+  /* border-top-right-radius: 2rem; */
+  /* border-left: 3px solid var(--card-container-border-color); */
+}
 
+.tab-selectors li {
+  background: var(--tab-selectors);
 }
 .tab-selectors li:hover {
-  background: #fef9b3;
+  background: var(--tab-selector-hover);
 }
 .tab-selectors li.active {
-  background: #93fdb1;
+  background: var(--tab-selector-active);
+}
+
+
+@media (min-width: 800px) {
+  /* Projects */
+  /* #projects-header-container {
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+    box-shadow: var(--card-box-shadow);
+    border-radius: 2rem;
+    padding: none;
+} */
+
+
+.tech-stack-logo-container{
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+.tech-stack-logo {
+    width:30%;
+}
+
+/* .project-links {
+    border: 3px solid red;
+    width: 80%;
+} */
+
+  /* Tabs */
+  .tabs {
+    width: 100%;
+    height: auto;
+    margin: 1.5rem auto 1.5rem;
+  }
+
+  .tab-selectors {
+    margin: -1em auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid var(--card-container-border-color);
+    border-radius: 2rem;
+    background: var(--tab-selectors-background-color);
+    padding-left: 0px;
+    box-shadow: var(--card-box-shadow);
+  }
+
+  .tab-selectors li {
+    font-size: 0.8em;
+    width: 100%;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    white-space: nowrap;
+  }
+
+  .tab-selectors li:nth-child(2) {
+    border-radius: 0;
+    border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+
+    /* border-top-right-radius: 2rem; */
+    /* border-left: 3px solid var(--card-container-border-color); */
+  }
+ 
 }

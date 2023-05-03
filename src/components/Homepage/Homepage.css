@@ -109,6 +109,9 @@
 }
 
 
+
+/* Media Queries */
+
 @media (max-width: 700px) {
   #homepage-header > * {
     font-size: 0.9em;

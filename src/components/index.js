@@ -10,3 +10,4 @@ export { default as TabView } from './Projects/TabView/TabView'
 // Projects
 export { default as HauntedMansion } from './Projects/HauntedMansion/HauntedMansion'
 export { default as StudentGroupGenerator} from './Projects/StudentGroupGenerator/StudentGroupGenerator'
+export { default as GraceShopper } from './Projects/GraceShopper/GraceShopper'
