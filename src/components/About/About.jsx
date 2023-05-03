@@ -30,7 +30,12 @@ const About = () => {
           <li className="coding-proficiency-list-item"><img className="coding-proficiency-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"/>Git & Github</li></span>
         </ul>
       </article>
-      <h2 className="card-header">Coding projects</h2>
+      {/* <h2 className="card-header">Coding Experience</h2>
+      <article className="card-container about-container">
+      <p className="paragraph-text">
+        Grace Hopper 
+      </p>
+      </article> */}
       <h2 className='card-header'>Life Before Coding</h2>
       <article className="card-container about-container">
       
@@ -40,13 +45,7 @@ const About = () => {
             className="right-about-photo"
             src="https://i.imgur.com/58kTIAK.jpg"
           />
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-          ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-          egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-          eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
-          Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet,
-          wisi.
+          I have been an artist and performer for the last 15 years. I play synthesizer, saxophone, and make videos with vhs and other analog video gear. 
         </p>
         <p>
           <img
@@ -54,12 +53,7 @@ const About = () => {
             className="left-about-photo"
             src="https://i.imgur.com/plp7le2.png"
           />
-          Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum
-          orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis
-          pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus
-          faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
-          Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
-          facilisis luctus, metus
+          <span className="no-wrap">I'm passionate about </span>organizing and educating. Over the last 15 years, I have organized many events and workshops relating to my artist interests as well as trans identity and community. 
         </p>
       </article></div>
   );

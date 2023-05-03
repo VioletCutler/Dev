@@ -1,5 +1,5 @@
 import "./Projects.css";
-import { HauntedMansion, StudentGroupGenerator } from '../index'
+import { HauntedMansion, StudentGroupGenerator, GraceShopper } from '../index'
 
 const Projects = () => {
   return (
@@ -8,8 +8,9 @@ const Projects = () => {
     <button>Student Group Generator</button>
     <button>Haunted Mansion</button>
 
-     <StudentGroupGenerator/>
+   
       <HauntedMansion/>
+      <GraceShopper/>
       <h2 id="project-header">Project Portfolio</h2>
 </div>
   );

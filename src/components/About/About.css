@@ -17,6 +17,7 @@
 
 #video-teacher-photo {
     float: none;
+    /* width: 100%; */
 }
 
 .coding-proficiency-icon {
@@ -43,8 +44,25 @@
     gap: 1em;
 }
 
+* {
+    font-size: 1.2rem;
+}
+
+
+.left-about-photo{
+    border: 3px solid var(--card-container-border-color);
+}
+
+.right-about-photo{
+    border: 3px solid var(--card-container-border-color);
+}
+
 
 @media (min-width: 800px){
+
+    * {
+        font-size: 1.5rem;
+    }
 
     #violet-main-photo{
         float: left;

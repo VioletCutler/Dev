@@ -19,8 +19,8 @@ nav {
   min-height: 4em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
+  justify-content: space-around;
+  /* align-items: start; */
   z-index: 99;
   padding-bottom: .5em;
 }
@@ -52,6 +52,41 @@ nav {
   font-size: 0.8em;
 }
 
+#navbar-header:visited {
+  color: var(--header-visited);
+  text-shadow: var(--header-visited-text-shadow);
+}
+
+#navbar-header:hover, #navbard-header:focus {
+  color:var(--header-hover-focus);
+  text-shadow: var(--header-hover-focus-text-shadow);
+}
+
+
+#navbar-header:active {
+  color: var(--header-active);
+  text-shadow: var(--header-active-text-shadow)
+}
+
+.navlink{
+  text-decoration: none;
+  color: var(--link);
+  transition: transform 500ms;
+}
+
+.navlink:visited{
+  color: var(--link-visited);
+}
+
+.navlink:hover, .navlink:focus{
+  transform: translateY(-.075rem);
+  color:var(--link-hover-focus);
+}
+
+.navlink:active{
+  color: var(--link-active);
+}
+
 
 
 @media (min-width: 800px) {
@@ -59,28 +94,15 @@ nav {
     background: var(--nav-header-background-color);
     min-width: 7em;
     display: flex;
-    padding-left: 1rem;               
+    padding-left: 1rem;  
+    padding-top: 0.5em;             
     text-decoration: none;
     text-shadow:var(--header-visited-text-shadow);
     justify-self: flex-end;
     align-self:flex-end;
   }
   
-  #navbar-header:visited {
-      color: var(--header-visited);
-      text-shadow: var(--header-visited-text-shadow);
-  }
-  
-  #navbar-header:hover, #navbard-header:focus {
-      color:var(--header-hover-focus);
-      text-shadow: var(--header-hover-focus-text-shadow);
-  }
-  
-  
-  #navbar-header:active {
-      color: var(--header-active);
-      text-shadow: var(--header-active-text-shadow)
-  }
+ 
   
   #navlinks {
     min-width: 13em;
@@ -90,24 +112,7 @@ nav {
     /* padding-right: 1rem; */
   }
   
-  .navlink{
-    text-decoration: none;
-    color: var(--link);
-    transition: transform 500ms;
-  }
   
-  .navlink:visited{
-    color: var(--link-visited);
-  }
-  
-  .navlink:hover, .navlink:focus{
-    transform: translateY(-.075rem);
-    color:var(--link-hover-focus);
-  }
-  
-  .navlink:active{
-    color: var(--link-active);
-  }
   
   nav {
     min-height: 0;
