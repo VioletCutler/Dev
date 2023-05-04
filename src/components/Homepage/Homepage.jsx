@@ -6,7 +6,7 @@ const Homepage = () => {
     <div id="homepage">
       <div id="homepage-header">
         <div id="homepage-header-circle">
-        <h2>welcome to violet.dev</h2><Link id="click-to-enter" to="/about">
+        <h2>welcome to violet.computer</h2><Link id="click-to-enter" to="/about">
           Enter
         </Link></div>
         
