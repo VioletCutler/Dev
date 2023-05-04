@@ -7,6 +7,7 @@ const App = () => {
       <>
         <Navbar />
         <Outlet />
+        <Footer />
       </>
     );
   };
@@ -28,7 +29,6 @@ const App = () => {
           </Route>
         </Routes>
       </div>
-      <Footer />
     </div>
   );
 };
