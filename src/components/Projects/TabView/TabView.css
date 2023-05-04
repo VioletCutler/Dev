@@ -15,7 +15,15 @@
 .tech-stack-logo-container{
   display: flex;
   justify-content: space-between;
+  padding: 1em;
   /* border: 1px solid blue; */
+  background: radial-gradient(var(--card-header-background), var(--card-background-color));
+  border-radius: 10%;
+  /* margin: .5em auto .5em; */
+}
+
+.grace-shopper-tech-stack-container {
+  margin: .5em auto .5em;
 }
 
 

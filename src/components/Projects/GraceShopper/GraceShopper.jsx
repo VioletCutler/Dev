@@ -63,7 +63,7 @@ const GraceShopper = () => {
           {" "}
           <span style={{ fontWeight: "bold" }}>Grace Shopper</span> came with a long list of technical challenges.
         </p>
-        <div className="tech-stack-logo-container">
+        <div className="tech-stack-logo-container grace-shopper-tech-stack-container">
           <img
             className="tech-stack-logo"
             src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
@@ -80,12 +80,11 @@ const GraceShopper = () => {
             alt="JWT logo. Arrows in a circle that form a star in the negative space. Arrows alternate between teal, aquamarine, magenta, red, and white."
           ></img>
         </div>
-        <br />
-        <br />
+        <p>
         To keep track of state within the application, we made use of <span style={{ fontWeight: "bold" }}>React
         Redux.</span> We used thunks to make our axios requests to the API we built on
-        the backend and <span style={{ fontWeight: "bold" }}>Sequelize</span> to manage our data in our <span style={{ fontWeight: "bold" }}>PostgreSQL</span> database.
-        <br />
+        the backend and <span style={{ fontWeight: "bold" }}>Sequelize</span> to manage our data in our <span style={{ fontWeight: "bold" }}>PostgreSQL</span> database.</p>
+        {/* <br /> */}
         <br />
         Authorization was one of the the big challenges of this project. We used
         <span style={{ fontWeight: "bold" }}> JWT</span> to generate authorization tokens that we then stored on the front
