@@ -25,9 +25,8 @@ const GraceShopper = () => {
             my time at the Grace Hopper program at Fullstack Academy. I
             collaborated with{" "}
             <a href="https://www.linkedin.com/in/mica-oz/">
-              Mica Osczczakiewicz
-            </a>
-            , , <a href="https://github.com/choi2010">Linda Choi</a>, and{" "}
+              Mica Osczczakiewicz 
+            </a>, <a href="https://github.com/choi2010">Linda Choi</a>, and{" "}
             <a href="https://www.linkedin.com/in/diana-viglucci/">
               Diana Viglucci 
             </a>{" "}
