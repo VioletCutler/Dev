@@ -40,6 +40,7 @@ const GraceShopper = () => {
         <p className="paragraph-text">
         <span style={{ fontWeight: "bold" }}>Grace Shopper</span> is intended to simulate a fully deployed and functional
           e-commerce application where a user can:
+          </p>
           <ul className="project-ul">
             <li>Register and Login with the correct credentials</li>
             <li>Browse a list of products and add them to a cart</li>
@@ -49,11 +50,12 @@ const GraceShopper = () => {
             </li>
           </ul>
           <br />
+ 
           <p className="paragraph-text">
             It also includes a dedicated administrator dashboard that allows any administrator
             account to edit or delete products.
           </p>
-        </p>
+
       </article>
       <h2 className="card-header">Technical Challenges</h2>
       <article className="card-container">

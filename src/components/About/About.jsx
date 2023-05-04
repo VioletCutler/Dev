@@ -39,23 +39,26 @@ const About = () => {
       </article> */}
       <h2 className='card-header'>Life Before Coding</h2>
       <article className="card-container about-container">
-      
-        <p className="paragraph-text">
-          <img
+      <div className="life-before-coding-section vhs-section">
+      <img
             id="vhs-selfie"
             className="right-about-photo"
             src="https://i.imgur.com/58kTIAK.jpg"
           />
-          I have been an artist and performer for the last 15 years. I play synthesizer, saxophone, and make videos with vhs and other analog video gear. 
+        <p className="paragraph-text vhs-text">
+          I have been an artist and performer for the last 15 years. I play synthesizer, saxophone, and make videos with vhs and other analog video gear. Transitioning to tech has felt like a natural fit for me because I find coding to be a creative practice and I enjoy the challenge of finding my own way to solve a problem.
         </p>
-        <p>
+        </div>
+        <div className="life-before-coding-section"
+        >
           <img
             id="video-teacher-photo"
             className="left-about-photo"
             src="https://i.imgur.com/plp7le2.png"
-          />
-          <span className="no-wrap">I'm passionate about </span>organizing and educating. Over the last 15 years, I have organized many events and workshops relating to my artist interests as well as trans identity and community. 
-        </p>
+          /><p id="education=text"
+          className="paragraph-text">
+        I'm passionate about organizing and educating. I have organized many events and workshops relating to my artistic interests as well as trans identity and community. I'm energized through working with other creatives who are traditionally underserved by mainstream institutions and building our own spaces and support networks.</p> 
+        </div>
       </article></div>
   );
 };

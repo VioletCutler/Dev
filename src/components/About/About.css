@@ -9,40 +9,77 @@
 }
 
 #vhs-selfie{
-    float: none;
-    max-width: 15em;
+    float: right;
+    max-width: 100%;
+    vertical-align: middle;
+    margin: 1.5em auto 1.5em;
+
     /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
- 
 }
 
+#vhs-text{
+    display: block;
+    float: right;
+}
+
+
 #video-teacher-photo {
+    clear:none;
     float: left;
     max-width:17em;
 }
 
-.coding-proficiency-icon {
-    max-width: 2em;
-    background: var(--main-background-color);
-}
-
-.coding-proficiency-list-item{
-    list-style-type: none;
-    font-size:1.05em;
-}
-
-#video-teacher-photo{
+#education-text {
+    clear: none;
     float: none;
-    max-width: 9em;
-    /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
-  
+    display: block;
+}
+
+.life-before-coding-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #coding-proficiency-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between;  */
     gap: 1em;
 }
+
+.coding-proficiency-list-item > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .coding-proficiency-icon {
+    max-width: 2em;
+    background: var(--main-background-color);
+} 
+
+.coding-proficiency-list-item{
+    list-style-type: none;
+    font-size:1.05em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    /* justify-content: space-between; */
+} 
+
+#video-teacher-photo{
+    float: none;
+    max-width: 100%;
+    margin: 1.5em auto 1.5em;
+    /* box-shadow: .2rem .2rem .5rem var(--about-box-shadow-color); */
+  
+}
+
+/* .vhs-section {
+    border-bottom: 1px solid black;
+} */
+
 
 * {
     font-size: 1.2rem;
@@ -61,6 +98,8 @@
         color: rgb(67, 67, 92);
         background:white;
     }
+
+
 
 @media (min-width: 800px){
 
@@ -111,6 +150,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .coding-proficiency-list-item{
+        display: flex;
+        gap: .5em;
+    /* list-style-type: none;
+    font-size:1.05em; */
+    /* display: block; */
+    /* align-items: center;
+    gap: 1em; */
+    /* justify-content: space-between; */
+} 
 
     /* .coding-proficiency-icon {
        padding-right: 1em;
