@@ -31,12 +31,6 @@ const About = () => {
           <li className="coding-proficiency-list-item"><img className="coding-proficiency-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"/>Git & Github</li></span>
         </ul>
       </article>
-      {/* <h2 className="card-header">Coding Experience</h2>
-      <article className="card-container about-container">
-      <p className="paragraph-text">
-        Grace Hopper 
-      </p>
-      </article> */}
       <h2 className='card-header'>Life Before Coding</h2>
       <article className="card-container about-container">
       <div className="life-before-coding-section vhs-section">

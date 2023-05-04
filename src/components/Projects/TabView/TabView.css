@@ -1,58 +1,38 @@
 @import "../../App/App.css";
 
-/* #projects-header-container {
-  height: 2em;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background-color:lightblue;
-  box-shadow: var(--card-box-shadow);
-  padding: 1.5em;
-  border-radius: 2rem;
-} */
-
-
-.tech-stack-logo-container{
+.tech-stack-logo-container {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  /* border: 1px solid blue; */
-  background: radial-gradient(var(--card-header-background), var(--card-background-color));
+  background: radial-gradient(
+    var(--card-header-background),
+    var(--card-background-color)
+  );
   border-radius: 10%;
-  /* margin: .5em auto .5em; */
 }
 
 .grace-shopper-tech-stack-container {
-  margin: .5em auto .5em;
+  margin: 0.5em auto 0.5em;
 }
-
 
 .tech-stack-logo {
-  width:30%;
+  width: 30%;
 }
-
-/* .project-links {
-  border: 3px solid red;
-  width: 80%;
-} */
-
 
 /* Tabs */
 
 .tabs {
   width: 100%;
-  /* height: auto; */
   margin: 3.5em auto 1.5em;
 }
 
 .tab-selectors {
   margin: 3em auto 2rem;
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border: 3px solid var(--card-container-border-color);
-  /* border-radius: 2rem; */
   background: var(--tab-selectors-background-color);
   padding-left: 0px;
   box-shadow: var(--card-box-shadow);
@@ -66,17 +46,12 @@
   text-align: center;
   cursor: pointer;
   transition: all 0.7s;
-  /* border-bottom-left-radius: 2rem; */
-  /* border-top-left-radius: 2rem; */
   white-space: nowrap;
 }
 
 .tab-selectors li:nth-child(2) {
   border-radius: 0;
-    border-top: 3px solid black;
-  /* border-bottom-right-radius: 2rem; */
-  /* border-top-right-radius: 2rem; */
-  /* border-left: 3px solid var(--card-container-border-color); */
+  border-top: 3px solid black;
 }
 
 .tab-selectors li {
@@ -89,35 +64,17 @@
   background: var(--tab-selector-active);
 }
 
-
 @media (min-width: 800px) {
   /* Projects */
-  /* #projects-header-container {
-    height: 2em;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color:lightblue;
-    box-shadow: var(--card-box-shadow);
-    border-radius: 2rem;
-    padding: none;
-} */
 
+  .tech-stack-logo-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.tech-stack-logo-container{
-  display: flex;
-  justify-content: space-between;
-  /* border: 1px solid blue; */
-}
-
-.tech-stack-logo {
-    width:30%;
-}
-
-/* .project-links {
-    border: 3px solid red;
-    width: 80%;
-} */
+  .tech-stack-logo {
+    width: 30%;
+  }
 
   /* Tabs */
   .tabs {
@@ -154,10 +111,6 @@
   .tab-selectors li:nth-child(2) {
     border-radius: 0;
     border-bottom-right-radius: 2rem;
-        border-bottom-left-radius: 2rem;
-
-    /* border-top-right-radius: 2rem; */
-    /* border-left: 3px solid var(--card-container-border-color); */
+    border-bottom-left-radius: 2rem;
   }
- 
 }

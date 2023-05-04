@@ -14,10 +14,6 @@ const TabView = () => {
 
   return (
     <div>
-      {/* <div id="projects-header-container">
-      <h2 id="projects-header">Projects</h2>
-      </div> */}
-
       <div className="tabs">
         <ul className="tab-selectors">
         <li

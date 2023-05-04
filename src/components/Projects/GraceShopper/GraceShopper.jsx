@@ -13,7 +13,6 @@ const GraceShopper = () => {
           <img
             id="grace-shopper-image"
             className="image-border"
-            // className="test"
             src="https://i.imgur.com/V6vkb3X.png"
             alt="A map of the different room connections inside the haunted mansion"
           ></img>

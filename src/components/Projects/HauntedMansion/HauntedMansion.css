@@ -4,22 +4,10 @@
   display: flex;
   justify-content: space-around;
 }
-/* #haunted-mansion-project-links {
-  flex-basis: 10em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-} */
 
 .haunted-mansion-project-link {
   background: lightblue;
 }
-
-/* #haunted-mansion-image {
-  max-width: 10rem;
-  padding-right: 1em;
-  float: left;
-} */
 
 #haunted-mansion-layout-image {
   width: 100%;
