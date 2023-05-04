@@ -57,7 +57,7 @@ const About = () => {
             src="https://i.imgur.com/plp7le2.png"
           /><p id="education=text"
           className="paragraph-text">
-        I'm passionate about organizing and educating. I have organized many events and workshops relating to my artistic interests as well as trans identity and community. I'm energized through working with other creatives who are traditionally underserved by mainstream institutions and building our own spaces and support networks.</p> 
+        I'm passionate about organizing and educating. I have organized many events and workshops relating to my artistic interests as well as trans identity and community. I'm energized by working with other creatives who are traditionally underserved by mainstream institutions and building our own spaces and support networks.</p> 
         </div>
       </article></div>
   );

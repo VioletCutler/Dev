@@ -1,4 +1,4 @@
-import { Navbar, About, Homepage, TabView } from "../index";
+import { Navbar, About, Homepage, TabView, Footer } from "../index";
 import { Routes, Route, Outlet } from "react-router-dom";
 import "./App.css";
 const App = () => {
@@ -28,6 +28,7 @@ const App = () => {
           </Route>
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 };
