@@ -38,10 +38,7 @@ const HauntedMansion = () => {
               and <a href="https://github.com/mai-gh">Mai Atwell</a> to build
               this fully playable 2-D point and click adventure game. Players
               can explore different rooms, interact with and pick up different
-              items, and solve puzzles. The game is built using Kaboom JS as
-              it's main library. However, once we began to scale the game it
-              became clear that Kaboom was not sufficient and is deployed on
-              Github pages
+              items, and solve puzzles. 
             </p>
           </div>
         </article>
